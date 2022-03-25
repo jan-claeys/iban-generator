@@ -602,3 +602,11 @@ function buildIban(country_input) {
 	return interIBAN;
   }
 }
+
+exports.buildIban = function(country){
+    return buildIban(country);
+}
+
+exports.buildX = function(n, country){
+    return buildX(n, country);
+}
